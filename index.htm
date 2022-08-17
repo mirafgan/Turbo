@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turbo</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+
+<body>
+    <header>
+        <div id="top">
+            <div class="topcontainer">
+                <div id="links">
+                    <span><a href="">Tap.az</a></span>
+                    <span><a href="">Bina.az</a></span>
+                    <span><a href="">Boss.az</a></span>
+                </div>
+                <div id="bar-right">
+                    <div id="help">
+                        <span id="destek">Dəstək xidməti:</span>
+                        <span><a id="number1" href="">(012) 599-08-01</a></span>;
+                        <span><a id="number2" href=""> (012) 505-77-55</a></span>
+                    </div>
+                    <div id="login">
+                        <span><a href="">RU</a></span>
+                        <span><a href=""><i class="fas fa-heart"></i>Seçilmişlər</a></span>
+                        <span><a href=""><i class="fas fa-user-circle"></i>Giriş</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div>
+                <!-- <span>TURBO.AZ</span> -->
+                <a href="#" id="logo">Turbo.az</a>
+                <ul>
+                    <li><a id="elanlar" href="">Bütün elanlar</a></li>
+                    <li><a id="avtosalon" href="">Avtosalonlar</a></li>
+                    <li><a id="ehtiyat" href="">Ehtiyat hissələr və aksessuarlar</a></li>
+                </ul>
+            </div>
+            <div id="new">
+                <button>
+                    <span><i class="fa fa-plus-circle" aria-hidden="true"></i></span>
+                    <a href="https://turbo.az/autos/new" target="_blank">Yeni Elan</a>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <aside><img src="content/img/reklam2.png" alt="" /></aside>
+        <div class="container">
+            <div class="dropdowns">
+                <div class="drps">
+                    <div class="dropdown1 dp1">
+                        <input placeholder="Marka" type="text" id="marka" />
+                        <div id="opt1"></div>
+                    </div>
+                    <div class="dropdown2">
+                        <input placeholder="Model" type="text" id="model" />
+                        <div id="opt2"></div>
+                    </div>
+                    <div class="">
+                        <input placeholder="Qiymət, min" type="number" id="price-min" min="0" />
+                    </div>
+                    <div class="">
+                        <input placeholder="Qiymət, max" type="number" id="price-max" min="0" />
+                    </div>
+                    <div class="dropdown3">
+                        <select name="" id="slct">
+                            <option value="AZN">AZN</option>
+                            <option value="$">USD</option>
+                            <option value="€">EURO</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="btn">
+                    <p id="newelan">Bu gün : <span class="num"></span> yeni elan</p>
+                    <button id="reset">Sıfırla</button>
+                    <button id="btn">Elanları göstər</button>
+                </div>
+            </div>
+            <div class="content container">
+                <h1>VIP ELANLAR</h1>
+                <div class="d-flex"></div>
+            </div>
+        </div>
+        <aside>
+            <img src="content/img/reklam.jfif" alt="" />
+        </aside>
+    </main>
+    <footer>
+        <div>
+            <p>
+                Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş <br /> elanların məzmununa görə
+                məsuliyyət daşımır.
+            </p>
+            <p>2022 DIV ACADEMY SƏHƏR QRUPU</p>
+            <p>Mobil versiyası</p>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/f449e7b9aa.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <script src="index.js"></script>
+    <script>
+        // function yaz(any) {
+        //     marka.value = any
+        // }
+    </script>
+</body>
+
+</html>

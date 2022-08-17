@@ -1,0 +1,993 @@
+{
+    "say": 86,
+    "brands": ["Toyota", "Aston-Martin", "Audi", "BMW", "Bentley", "Chevrolet", "Hummer", "Jaguar", "LADA(VAZ)", "Maserati", "Mersedes", "Opel"],
+    "car": [{
+            "model": [{
+                    "id": "001",
+                    "brand": "Toyota",
+                    "name": "Prius",
+                    "image": "content/img/prius.jpg",
+                    "year": 2009,
+                    "distance": 100000,
+                    "metr": "km",
+                    "price": 9000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "002",
+                    "brand": "Toyota",
+                    "name": "Corolla ",
+                    "image": "content/img/corolla.jpg",
+                    "year": 2000,
+                    "distance": 11000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "$"
+                },
+                {
+                    "id": "003",
+                    "brand": "Toyota",
+                    "name": "Avalon",
+                    "image": "content/img/avalon.jpg",
+                    "year": 2000,
+                    "distance": 12000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "004",
+                    "brand": "Toyota",
+                    "name": "Avanza",
+                    "image": "content/img/avanza.jpg",
+                    "year": 2000,
+                    "distance": 13000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "005",
+                    "brand": "Toyota",
+                    "name": "Avensis",
+                    "image": "content/img/avensis.jpg",
+                    "year": 2000,
+                    "distance": 14000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "006",
+                    "brand": "Toyota",
+                    "name": "Camry",
+                    "image": "content/img/camry.jpg",
+                    "year": 2019,
+                    "distance": 85000,
+                    "metr": "km",
+                    "price": 34900,
+                    "currency": "$"
+                },
+                {
+                    "id": "007",
+                    "brand": "Toyota",
+                    "name": "Prado",
+                    "image": "content/img/prado.jpg",
+                    "year": 2014,
+                    "distance": 79000,
+                    "metr": "km",
+                    "price": 33192,
+                    "currency": "€"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "008",
+                    "brand": "Aston-Martin",
+                    "name": "Rapide",
+                    "image": "content/img/rapide.jpg",
+                    "year": 2011,
+                    "distance": 65000,
+                    "metr": "km",
+                    "price": 67000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "009",
+                    "brand": "Aston-Martin",
+                    "name": "Rapide",
+                    "image": "content/img/rapide2013.jpeg",
+                    "year": 2013,
+                    "distance": 4000,
+                    "metr": "km",
+                    "price": 93500,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "010",
+                    "brand": "Aston-Martin",
+                    "name": "Vantage",
+                    "image": "content/img/vantage.jpg",
+                    "year": 2008,
+                    "distance": 29773,
+                    "metr": "km",
+                    "price": 63750,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "011",
+                    "brand": "Aston-Martin",
+                    "name": "Vantage",
+                    "image": "content/img/vantage2011.jpeg",
+                    "year": 2011,
+                    "distance": 76000,
+                    "metr": "km",
+                    "price": 55000,
+                    "currency": "AZN"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "012",
+                    "brand": "Audi",
+                    "name": "A3",
+                    "image": "content/img/a3.jpg",
+                    "year": 2002,
+                    "distance": 19000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "013",
+                    "brand": "Audi",
+                    "name": "A4",
+                    "image": "content/img/a4.jpg",
+                    "year": 2013,
+                    "distance": 143500,
+                    "metr": "km",
+                    "price": 25500,
+                    "currency": "AZN"
+
+                },
+                {
+                    "id": "014",
+                    "brand": "Audi",
+                    "name": "A4",
+                    "image": "content/img/2008a4.jpeg",
+                    "year": 2008,
+                    "distance": 290000,
+                    "metr": "km",
+                    "price": 11400,
+                    "currency": "AZN"
+
+                },
+                {
+                    "id": "015",
+                    "brand": "Audi",
+                    "name": "A5",
+                    "image": "content/img/a5.jpg",
+                    "year": 2013,
+                    "distance": 167000,
+                    "metr": "km",
+                    "price": 28000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "016",
+                    "brand": "Audi",
+                    "name": "A6",
+                    "image": "content/img/a6.jpg",
+                    "year": 2012,
+                    "distance": 137000,
+                    "metr": "km",
+                    "price": 30260,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "017",
+                    "brand": "Audi",
+                    "name": "A7",
+                    "image": "content/img/a7.jpg",
+                    "year": 2012,
+                    "distance": 260000,
+                    "metr": "km",
+                    "price": 22500,
+                    "currency": "$"
+                },
+                {
+                    "id": "018",
+                    "brand": "Audi",
+                    "name": "A7",
+                    "image": "content/img/a7salon.jpeg",
+                    "year": 2013,
+                    "distance": 103000,
+                    "metr": "km",
+                    "price": 50830,
+                    "currency": "AZN"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "019",
+                    "brand": "BMW",
+                    "name": "118",
+                    "image": "content/img/118.jpg",
+                    "year": 2004,
+                    "distance": 24000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "020",
+                    "brand": "BMW",
+                    "name": "120",
+                    "image": "content/img/120.jpg",
+                    "year": 2004,
+                    "distance": 25000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "021",
+                    "brand": "BMW",
+                    "name": "218",
+                    "image": "content/img/218.jpg",
+                    "year": 2004,
+                    "distance": 26000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "022",
+                    "brand": "BMW",
+                    "name": "316",
+                    "image": "content/img/316.jpg",
+                    "year": 2004,
+                    "distance": 27000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+
+                },
+                {
+                    "id": "023",
+                    "brand": "BMW",
+                    "name": "318",
+                    "image": "content/img/318.jpg",
+                    "year": 1998,
+                    "distance": 300000,
+                    "metr": "km",
+                    "price": 5000,
+                    "currency": "AZN"
+
+                },
+                {
+                    "id": "024",
+                    "brand": "BMW",
+                    "name": "320",
+                    "image": "content/img/320.jpg",
+                    "year": 2005,
+                    "distance": 243000,
+                    "metr": "km",
+                    "price": 15800,
+                    "currency": "AZN"
+
+                },
+                {
+                    "id": "025",
+                    "brand": "BMW",
+                    "name": "420",
+                    "image": "content/img/420.jpg",
+                    "year": 2004,
+                    "distance": 29000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "€"
+
+                },
+                {
+                    "id": "026",
+                    "brand": "BMW",
+                    "name": "428",
+                    "image": "content/img/428.jpg",
+                    "year": 2004,
+                    "distance": 30000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "$"
+                },
+                {
+                    "id": "027",
+                    "brand": "BMW",
+                    "name": "430",
+                    "image": "content/img/430.jpg",
+                    "year": 2004,
+                    "distance": 31000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "€"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "028",
+                    "brand": "Bentley",
+                    "name": "Bentyage",
+                    "image": "content/img/bentyage.jpg",
+                    "year": 2021,
+                    "distance": 8800,
+                    "metr": "km",
+                    "price": 255000,
+                    "currency": "$"
+                },
+                {
+                    "id": "029",
+                    "brand": "Bentley",
+                    "name": "Bentyage",
+                    "image": "content/img/bentyage2018.jpeg",
+                    "year": 2018,
+                    "distance": 6750,
+                    "metr": "km",
+                    "price": 357000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "030",
+                    "brand": "Bentley",
+                    "name": "Continental GT",
+                    "image": "content/img/continental.jpg",
+                    "year": 2008,
+                    "distance": 79000,
+                    "metr": "km",
+                    "price": 43000,
+                    "currency": "€"
+                },
+                {
+                    "id": "031",
+                    "brand": "Bentley",
+                    "name": "Continental GT",
+                    "image": "content/img/continental2013.jpeg",
+                    "year": 2013,
+                    "distance": 28000,
+                    "metr": "km",
+                    "price": 159800,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "032",
+                    "brand": "Bentley",
+                    "name": "Flying Spur",
+                    "image": "content/img/flying.jpg",
+                    "year": 2013,
+                    "distance": 57000,
+                    "metr": "km",
+                    "price": 12000,
+                    "currency": "$"
+                },
+                {
+                    "id": "033",
+                    "brand": "Bentley",
+                    "name": "Continental Flying Spur",
+                    "image": "content/img/continentalflying.jpeg",
+                    "year": 2008,
+                    "distance": 18000,
+                    "metr": "km",
+                    "price": 50000,
+                    "currency": "€"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "034",
+                    "brand": "Chevrolet",
+                    "name": "Alero",
+                    "image": "content/img/alero.jpg",
+                    "year": 2006,
+                    "distance": 35000,
+                    "metr": "km",
+                    "price": 9000,
+                    "currency": "$"
+                },
+                {
+                    "id": "035",
+                    "brand": "Chevrolet",
+                    "name": "Aveo",
+                    "image": "content/img/aveo.jpg",
+                    "year": 2011,
+                    "distance": 158600,
+                    "metr": "km",
+                    "price": 9000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "036",
+                    "brand": "Chevrolet",
+                    "name": "Camaro",
+                    "image": "content/img/camaro.jpg",
+                    "year": 2006,
+                    "distance": 37000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "037",
+                    "brand": "Chevrolet",
+                    "name": "Cruze",
+                    "image": "content/img/cruze.jpg",
+                    "year": 2015,
+                    "distance": 208000,
+                    "metr": "km",
+                    "price": 17700,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "038",
+                    "brand": "Chevrolet",
+                    "name": "Epica",
+                    "image": "content/img/epica.jpeg",
+                    "year": 2009,
+                    "distance": 142000,
+                    "metr": "km",
+                    "price": 14500,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "039",
+                    "brand": "Chevrolet",
+                    "name": "Impala",
+                    "image": "content/img/impala.jpg",
+                    "year": 2006,
+                    "distance": 39000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "040",
+                    "brand": "Chevrolet",
+                    "name": "Lacetti",
+                    "image": "content/img/lacetti.jpeg",
+                    "year": 2005,
+                    "distance": 157000,
+                    "metr": "km",
+                    "price": 11800,
+                    "currency": "AZN"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "041",
+                    "brand": "Hummer",
+                    "name": "H1",
+                    "image": "content/img/h1.jpg",
+                    "year": 1994,
+                    "distance": 120000,
+                    "metr": "km",
+                    "price": 70000,
+                    "currency": "€"
+                },
+                {
+                    "id": "042",
+                    "brand": "Hummer",
+                    "name": "H2",
+                    "image": "content/img/2002h2.jpeg",
+                    "year": 2002,
+                    "distance": 167680,
+                    "metr": "km",
+                    "price": 28800,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "043",
+                    "brand": "Hummer",
+                    "name": "H2",
+                    "image": "content/img/h2.jpg",
+                    "year": 2005,
+                    "distance": 75000,
+                    "metr": "km",
+                    "price": 27500,
+                    "currency": "$"
+                },
+                {
+                    "id": "044",
+                    "brand": "Hummer",
+                    "name": "H2",
+                    "image": "content/img/2007h2.jpeg",
+                    "year": 2007,
+                    "distance": 177000,
+                    "metr": "km",
+                    "price": 75700,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "045",
+                    "brand": "Hummer",
+                    "name": "H3",
+                    "image": "content/img/h3.jpg",
+                    "year": 2007,
+                    "distance": 87000,
+                    "metr": "km",
+                    "price": 28700,
+                    "currency": "€"
+                },
+                {
+                    "id": "046",
+                    "brand": "Hummer",
+                    "name": "H3",
+                    "image": "content/img/2008h3.jpeg",
+                    "year": 2008,
+                    "distance": 139000,
+                    "metr": "km",
+                    "price": 31000,
+                    "currency": "AZN"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "047",
+                    "brand": "Jaguar",
+                    "name": "E-Pace",
+                    "image": "content/img/epace.jpg",
+                    "year": 2020,
+                    "distance": 0,
+                    "metr": "km",
+                    "price": 43000,
+                    "currency": "€"
+                },
+                {
+                    "id": "048",
+                    "brand": "Jaguar",
+                    "name": "F-Pace",
+                    "image": "content/img/fpace.jpg",
+                    "year": 2022,
+                    "distance": 0,
+                    "metr": "km",
+                    "price": 94000,
+                    "currency": "$"
+                },
+                {
+                    "id": "049",
+                    "brand": "Jaguar",
+                    "name": "F-Pace R",
+                    "image": "content/img/fpacer.jpeg",
+                    "year": 2019,
+                    "distance": 4000,
+                    "metr": "km",
+                    "price": 60000,
+                    "currency": "€"
+                },
+                {
+                    "id": "050",
+                    "brand": "Jaguar",
+                    "name": "F-Type",
+                    "image": "content/img/ftype.jpg",
+                    "year": 2019,
+                    "distance": 0,
+                    "metr": "km",
+                    "price": 15013,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "051",
+                    "brand": "Jaguar",
+                    "name": "F-Type S",
+                    "image": "content/img/ftypes.jpeg",
+                    "year": 2014,
+                    "distance": 30000,
+                    "metr": "km",
+                    "price": 55000,
+                    "currency": "$"
+                },
+                {
+                    "id": "052",
+                    "brand": "Jaguar",
+                    "name": "XE",
+                    "image": "content/img/xe.jpg",
+                    "year": 2015,
+                    "distance": 59000,
+                    "metr": "km",
+                    "price": 46750,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "053",
+                    "brand": "Jaguar",
+                    "name": "XF",
+                    "image": "content/img/xf.jpg",
+                    "year": 2019,
+                    "distance": 0,
+                    "metr": "km",
+                    "price": 57800,
+                    "currency": "$"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "054",
+                    "brand": "LADA(VAZ)",
+                    "name": "2101",
+                    "image": "content/img/2101.jpg",
+                    "year": 2009,
+                    "distance": 48000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "055",
+                    "brand": "LADA(VAZ)",
+                    "name": "21011",
+                    "image": "content/img/21011.jpg",
+                    "year": 2009,
+                    "distance": 49000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "056",
+                    "brand": "LADA(VAZ)",
+                    "name": "2104",
+                    "image": "content/img/2104.jpg",
+                    "year": 1996,
+                    "distance": 200000,
+                    "metr": "km",
+                    "price": 40000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "057",
+                    "brand": "LADA(VAZ)",
+                    "name": "2106",
+                    "image": "content/img/2106.jpg",
+                    "year": 2005,
+                    "distance": 56000,
+                    "metr": "km",
+                    "price": 6000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "058",
+                    "brand": "LADA(VAZ)",
+                    "name": "2107",
+                    "image": "content/img/2107.jpg",
+                    "year": 2007,
+                    "distance": 217248,
+                    "metr": "km",
+                    "price": 6000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "059",
+                    "brand": "LADA(VAZ)",
+                    "name": "Niva",
+                    "image": "content/img/niva.jpg",
+                    "year": 2020,
+                    "distance": 36000,
+                    "metr": "km",
+                    "price": 16000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "060",
+                    "brand": "LADA(VAZ)",
+                    "name": "OKA",
+                    "image": "content/img/oka.jpg",
+                    "year": 2004,
+                    "distance": 70000,
+                    "metr": "km",
+                    "price": 30000,
+                    "currency": "AZN"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "061",
+                    "brand": "Maserati",
+                    "name": "Ghibli",
+                    "image": "content/img/ghibli.jpg",
+                    "year": 2014,
+                    "distance": 64456,
+                    "metr": "km",
+                    "price": 35000,
+                    "currency": "€"
+                },
+                {
+                    "id": "062",
+                    "brand": "Maserati",
+                    "name": "GranTurismo",
+                    "image": "content/img/granturismo.jpg",
+                    "year": 2009,
+                    "distance": 169000,
+                    "metr": "km",
+                    "price": 24000,
+                    "currency": "€"
+                },
+                {
+                    "id": "063",
+                    "brand": "Maserati",
+                    "name": "GranTurismo S",
+                    "image": "content/img/granturismos.jpg",
+                    "year": 2014,
+                    "distance": 25000,
+                    "metr": "km",
+                    "price": 55000,
+                    "currency": "€"
+                },
+                {
+                    "id": "064",
+                    "brand": "Maserati",
+                    "name": "Levante",
+                    "image": "content/img/levante.jpg",
+                    "year": 2018,
+                    "distance": 34000,
+                    "metr": "km",
+                    "price": 65000,
+                    "currency": "€"
+                },
+                {
+                    "id": "065",
+                    "brand": "Maserati",
+                    "name": "Levante S",
+                    "image": "content/img/levantes.jpg",
+                    "year": 2020,
+                    "distance": 698,
+                    "metr": "km",
+                    "price": 96000,
+                    "currency": "€"
+                },
+                {
+                    "id": "066",
+                    "brand": "Maserati",
+                    "name": "Quattroporte",
+                    "image": "content/img/quattroporte.jpg",
+                    "year": 2011,
+                    "distance": 97000,
+                    "metr": "km",
+                    "price": 26500,
+                    "currency": "$"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "067",
+                    "brand": "Mersedes",
+                    "name": "170 V",
+                    "image": "content/img/170v.jpg",
+                    "year": 2011,
+                    "distance": 61000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "$"
+                },
+                {
+                    "id": "068",
+                    "brand": "Mersedes",
+                    "name": "190",
+                    "image": "content/img/190.jpg",
+                    "year": 2011,
+                    "distance": 62000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "069",
+                    "brand": "Mersedes",
+                    "name": "A 150",
+                    "image": "content/img/a150.jpg",
+                    "year": 2011,
+                    "distance": 63000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "070",
+                    "brand": "Mersedes",
+                    "name": "A 160",
+                    "image": "content/img/a160.jpg",
+                    "year": 2011,
+                    "distance": 64000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "071",
+                    "brand": "Mersedes",
+                    "name": "A 170",
+                    "image": "content/img/a170.jpg",
+                    "year": 2011,
+                    "distance": 65000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "072",
+                    "brand": "Mersedes",
+                    "name": "A 180",
+                    "image": "content/img/a180.jpg",
+                    "year": 2011,
+                    "distance": 66000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "073",
+                    "brand": "Mersedes",
+                    "name": "B 150",
+                    "image": "content/img/b150.jpg",
+                    "year": 2011,
+                    "distance": 67000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "074",
+                    "brand": "Mersedes",
+                    "name": "B 170",
+                    "image": "content/img/b170.jpg",
+                    "year": 2011,
+                    "distance": 68000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "075",
+                    "brand": "Mersedes",
+                    "name": "B 180",
+                    "image": "content/img/b180.jpg",
+                    "year": 2011,
+                    "distance": 69000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "076",
+                    "brand": "Mersedes",
+                    "name": "B 200",
+                    "image": "content/img/b200.jpg",
+                    "year": 2011,
+                    "distance": 70000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "077",
+                    "brand": "Mersedes",
+                    "name": "C 180",
+                    "image": "content/img/c180.jpg",
+                    "year": 2000,
+                    "distance": 247000,
+                    "metr": "km",
+                    "price": 10500,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "078",
+                    "brand": "Mersedes",
+                    "name": "C 200",
+                    "image": "content/img/c200.jpg",
+                    "year": 2008,
+                    "distance": 232000,
+                    "metr": "km",
+                    "price": 21500,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "079",
+                    "brand": "Mersedes",
+                    "name": "C 220",
+                    "image": "content/img/c220.jpg",
+                    "year": 1996,
+                    "distance": 252525,
+                    "metr": "km",
+                    "price": 6000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "080",
+                    "brand": "Mersedes",
+                    "name": "C 240",
+                    "image": "content/img/c240.jpg",
+                    "year": 2011,
+                    "distance": 74000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                }
+            ]
+        },
+        {
+            "model": [{
+                    "id": "081",
+                    "brand": "Opel",
+                    "name": "Astra",
+                    "image": "content/img/astra.jpg",
+                    "year": 2006,
+                    "distance": 194000,
+                    "metr": "km",
+                    "price": 9000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "082",
+                    "brand": "Opel",
+                    "name": "Corsa",
+                    "image": "content/img/corsa.jpg",
+                    "year": 2014,
+                    "distance": 158000,
+                    "metr": "km",
+                    "price": 16000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "083",
+                    "brand": "Opel",
+                    "name": "Insignia",
+                    "image": "content/img/insignia.jpg",
+                    "year": 2012,
+                    "distance": 77000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "084",
+                    "brand": "Opel",
+                    "name": "Mokka",
+                    "image": "content/img/mokka.jpg",
+                    "year": 2012,
+                    "distance": 78000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "$"
+                },
+                {
+                    "id": "085",
+                    "brand": "Opel",
+                    "name": "Vita",
+                    "image": "content/img/vita.jpg",
+                    "year": 2012,
+                    "distance": 79000,
+                    "metr": "km",
+                    "price": 10000,
+                    "currency": "AZN"
+                },
+                {
+                    "id": "086",
+                    "brand": "Opel",
+                    "name": "Zafira",
+                    "image": "content/img/zafira.jpg",
+                    "year": 2002,
+                    "distance": 313137,
+                    "metr": "km",
+                    "price": 10500,
+                    "currency": "AZN"
+                }
+            ]
+        }
+    ]
+}
